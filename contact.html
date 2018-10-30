@@ -1,0 +1,73 @@
+---
+# this is an empty front matter
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Contact Us | Web Design Cork</title>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Raleway" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  {% include nav.html %}
+
+
+  <div class="site-wrap">
+
+    <h2>Send us a message</h2>
+
+    <p>Now here is where we meet each other. Please send us a message and describe briefly your service,
+        your ideas, your Team, your Product and your Visions. The more we know, the better we can help.
+        We are eager to get to know you.
+    </p>
+
+    <form action="https://formspree.io/lukasz.adms@gmail.com"
+    method="POST">
+
+      <label for="Name">Name</label>
+      <input type="text">
+
+      <label for="Name">Email</label>
+       <input type="email" name="_replyto">
+
+      <label for="Name">Name</label>
+      <textarea name="textarea" cols="30" rows="10"></textarea>
+
+
+      <input type="submit" value="Send">
+</form>
+
+
+  </div> <!--Sitewrap-->
+
+
+  {% include footer.html %}
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+        
