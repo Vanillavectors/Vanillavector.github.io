@@ -302,7 +302,8 @@ display: none;}}
 
 
 footer {
-  background-color: #4fabad;
+  box-shadow: inset 0 0 0 1000px rgba(152, 22, 111, 0.44);
+  background-image: url(/footer.jpeg);
   margin-top: 3em;
 }
 
