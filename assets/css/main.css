@@ -259,31 +259,9 @@ display: none;
 display: none;}}
 
 
-#asa .wrapper {
-  width: 750px;
-  max-width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  transition: all .3s ease-in;
-}
-
-#asa .wrapper img {
-  padding: 2em;
-}
-
-#asa .wrapper img:hover {
-  cursor: pointer;
-}
 
 
-#comment-asa,
-#comment-rachel {
-  width: 750px;
-  max-width: 90%;
-  margin: 0 auto;
-  transition: all .3s ease-in;
-  position: relative;
-}
+
 
 .close {
   opacity: 0;
