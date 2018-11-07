@@ -276,7 +276,7 @@ display: none;}}
 
 footer {
   box-shadow: inset 0 0 0 1000px rgba(152, 22, 111, 0.44);
-  background-image: url(/footer.jpeg);
+  background-image: url(/assets/footer.jpeg);
   margin-top: 3em;
 }
 
