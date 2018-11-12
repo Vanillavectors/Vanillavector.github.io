@@ -372,3 +372,17 @@ input[type="submit"]:hover {
   background-color: #62aaac;
   color: white;
   cursor: pointer; }
+
+
+
+  .youtube-player {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    padding-bottom: 0em;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 90%;
+    height: 333px;
+}
