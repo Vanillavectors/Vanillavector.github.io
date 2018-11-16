@@ -7,7 +7,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/css/main.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Dosis|Raleway" rel="stylesheet">
@@ -16,11 +16,11 @@
 <body>
 
 
-  <header>
+  <header itemscope="itemscope" itemtype="http://schema.org/WPHeader">
     <h1>Web Design Cork</h1>
   </header>
 
-  <nav id="main">
+  <nav id="main" itemscope itemtype="https://schema.org/SiteNavigationElement">
     <ul id="oldul">
       <li class="logo"><a href="#"><img src="/icon.png" width="70px" alt="Logo"></a></li>
       <li><a href="/">Home</a></li>
@@ -29,6 +29,9 @@
       <div class="dropdown">
         <a class="dropbtn" href="/service">Service</a>
         <div class="dropdown-content">
+            <li><a href="/service/seo-cork">SEO</a></li>
+            <li><a href="/service/web-development-cork">Web Development</a></li>
+            <li><a href="/service/responsive-web-design-cork">Responsive Web Design</a></li>
       </div>
       </div>
 
@@ -41,14 +44,14 @@
 
 
     <ul id="newul" class="unshow">
-      <li class="logo"><a href="#">LOST.</a></li>
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
 
       <div class="ser-mobile">
-      Service
-      <li><a href="#">Images</a></li>
-      <li><a href="#">Images</a></li>
+        <li><a href="/service">Service</a></li>
+        <li><a href="/service/seo-cork">SEO</a></li>
+        <li><a href="/service/web-development-cork">Web Development</a></li>
+        <li><a href="/service/responsive-web-design-cork">Responsive Web Design</a></li>
     </div>
 
     </ul>
@@ -62,12 +65,13 @@
     <h2>Web Design, Development and SEO</h2>
 
     <p>
-    We offer modern and affordable web design solutions for our beautiful City Corcaigh, better known as Cork.
+    We offer modern and affordable web design solutions for our beautiful City Corcaigh, better known as <a href="https://en.wikipedia.org/wiki/Cork_(city)
+    ">Cork</a>.
     Inspired by beautiful nature, the Fitzgeralds Park or Shehy Mountains, we try to create something with 
     a similar beauty in the digital world.
     <br><br>
-    We offer web design and SEO solutions for the region all around Cork including Blarney Macroom, Bandon Kinsale, 
-    Ballincollig Carrigaline, Kanturk Mallow or Fermoy. Our solutions include the design of a complete Website 
+    We offer <a href="https://en.wikipedia.org/wiki/Web_design">web design</a> and SEO solutions for the region all around 
+    Cork including Blarney Macroom, Bandon Kinsale, Ballincollig Carrigaline, Kanturk Mallow or Fermoy. Our solutions include the design of a complete Website 
     or a Landing Page, Web Development and Search Engine Optimization.
     <br><br>
     We are eager to get to know your projects. Lets grab a coffee on one of the great coffee houses near Western Road 
@@ -95,9 +99,9 @@
     most important Factors, when it comes to designing a website. After the Design, there comes the web development. 
     <br><br>
     We develop every website with ES6 javascript, HTML and CSS. We don't use any other software or Website Builder. 
-    Everything that we code, is aligned with the W3C standarts. There are many solutions for the web design world, among 
-    other things, we offer to design a new user interface, re-design an exisitng website, help with with WordPress customization
-    and improving your Rankings for your most valueable keywords.
+    Everything that we code, is aligned with the <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C standarts</a>. 
+    There are many solutions for the web design world, among other things, we offer to design a new user interface, re-design an exisitng website, 
+    help with with WordPress customization and improving your Rankings for your most valueable keywords.
     </p>
 
     <h2>Web Design Service Overview</h2>
@@ -128,7 +132,7 @@
 
 
 
-  <footer>
+  <footer itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 
     <div class="footer-inner">
 
@@ -136,7 +140,7 @@
 
           <h3>Welcome to Vanillavectors</h3>
           <img src="/icon.png" width="100px" alt="Web Designer Illustration">
-          <p>We're your Web Design for Cork!</p>
+          <p>We're your Web Design Agency for Cork!</p>
 
       </div> <!-- left -->
 
@@ -167,9 +171,9 @@
 
     <div class="wrapper">
 
-      <li>About</li>
-      <li>Privacy Policy</li>
-      <li>Contact</li>
+      <a href="/about"><li>About</li></a> 
+      <a href="/privacy"><li>Privacy Policy</li></a>
+      <a href="/contact"><li>Contact</li></a>
 
     </div>
   </footer>

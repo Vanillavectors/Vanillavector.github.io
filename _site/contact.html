@@ -7,7 +7,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/css/main.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Dosis|Raleway" rel="stylesheet">
@@ -18,11 +18,11 @@
 <body>
 
 
-  <header>
+  <header itemscope="itemscope" itemtype="http://schema.org/WPHeader">
     <h1>Contact Us</h1>
   </header>
 
-  <nav id="main">
+  <nav id="main" itemscope itemtype="https://schema.org/SiteNavigationElement">
     <ul id="oldul">
       <li class="logo"><a href="#"><img src="/icon.png" width="70px" alt="Logo"></a></li>
       <li><a href="/">Home</a></li>
@@ -31,6 +31,9 @@
       <div class="dropdown">
         <a class="dropbtn" href="/service">Service</a>
         <div class="dropdown-content">
+            <li><a href="/service/seo-cork">SEO</a></li>
+            <li><a href="/service/web-development-cork">Web Development</a></li>
+            <li><a href="/service/responsive-web-design-cork">Responsive Web Design</a></li>
       </div>
       </div>
 
@@ -43,14 +46,14 @@
 
 
     <ul id="newul" class="unshow">
-      <li class="logo"><a href="#">LOST.</a></li>
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
 
       <div class="ser-mobile">
-      Service
-      <li><a href="#">Images</a></li>
-      <li><a href="#">Images</a></li>
+        <li><a href="/service">Service</a></li>
+        <li><a href="/service/seo-cork">SEO</a></li>
+        <li><a href="/service/web-development-cork">Web Development</a></li>
+        <li><a href="/service/responsive-web-design-cork">Responsive Web Design</a></li>
     </div>
 
     </ul>
@@ -88,7 +91,7 @@
   </div> <!--Sitewrap-->
 
 
-  <footer>
+  <footer itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 
     <div class="footer-inner">
 
@@ -96,7 +99,7 @@
 
           <h3>Welcome to Vanillavectors</h3>
           <img src="/icon.png" width="100px" alt="Web Designer Illustration">
-          <p>We're your Web Design for Cork!</p>
+          <p>We're your Web Design Agency for Cork!</p>
 
       </div> <!-- left -->
 
@@ -127,9 +130,9 @@
 
     <div class="wrapper">
 
-      <li>About</li>
-      <li>Privacy Policy</li>
-      <li>Contact</li>
+      <a href="/about"><li>About</li></a> 
+      <a href="/privacy"><li>Privacy Policy</li></a>
+      <a href="/contact"><li>Contact</li></a>
 
     </div>
   </footer>
